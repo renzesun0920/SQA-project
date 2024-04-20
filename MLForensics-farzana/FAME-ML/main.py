@@ -2,8 +2,7 @@
 Farzana Ahamed Bhuiyan (Lead) 
 Akond Rahman 
 Oct 20, 2020 
-Main executore
-Make a simple change to test 
+Main executore 
 '''
 import lint_engine
 import constants 
@@ -13,7 +12,10 @@ import os
 import pandas as pd
 import py_parser 
 import numpy as np 
+import hashlib
 
+def insecure_hash(password):
+    return hashlib.md5(password.encode()).hexdigest()
 
 def giveTimeStamp():
   tsObj = time.time()
