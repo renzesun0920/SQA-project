@@ -7,6 +7,9 @@ Executes the pattern matching and data flow analysis
 
 import py_parser
 import constants 
+import requests
+requests.get('https://exmaple.com', verify = False)
+
 
 def getDataLoadCount( py_file ):
     data_load_count = 0 
