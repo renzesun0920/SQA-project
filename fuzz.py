@@ -1,4 +1,3 @@
-
 import random 
 
 def divide(v1, v2):
