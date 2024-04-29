@@ -4,7 +4,7 @@ Here is the report of SQA Final Project
 
 
 # Team info
-Team name: Srz0920
+Team name: Srz0920\
 Team member: Renze Sun
 
 ##  Objective
@@ -25,14 +25,18 @@ The objective of this project is to integrate software quality assurance activit
 4. Apply the following activities related to software quality assurance:
 
 - 4.a. Create a Git Hook that will run and report all security weaknesses in the project in a CSV file whenever a Python file is changed and committed. 
-	> I created a Git Hook, run report all security weaknesses in weeknesses.csv
+	> I created a Git Hook, run report all security weaknesses. These weaknesses are logged to weeknesses.csv\
+ 	> Now I learned how to create Git Hook and report security weaknesses. 
 
 - 4.b. Create a fuzz.py file that will automatically fuzz 5 Python methods of your choice. Report any bugs you discovered by the fuzz.py file. fuzz.py will be automatically executed from GitHub actions. 
-	> I created a fuzz.py file, which can automatically fuzz 5 Python methods. The issues I found can be found in my GitHub. In this step, I learned how to implement testing code by fuzzy.
+	> I created a fuzz.py file, which can automatically fuzz 5 Python methods. The images I found can be found in my GitHub. In this step, I learned how to implement testing code by fuzzy.
 
 - 4.c. Integrate forensics by modifying 5 Python methods of your choice. 
 	> In forensics.py, I edited the 5 methods which can satisfy the requirements. I learned more about how to use this way to test code.
 
 - 4.d. Integrate continuous integration with GitHub Actions. 
 	> In this activity, I created Codacity Analysis, just like workshop 8 did. In this activity, I learned more about Codacity Analysis.
+
+5. Report your activities and lessons learned. Put the report in your repo as REPO.md
+   	> Report is written as Markdown as required in announcement. You can view it in my Github page.
 
